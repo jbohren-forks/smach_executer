@@ -1,0 +1,24 @@
+<package>
+  <description brief="smach_executer">
+  </description>
+  <author>Jon Binney</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/smach_executer</url>
+
+  <depend package="rospy" />
+  <depend package="tf" />
+  <depend package="tf2_ros" />
+  <depend package="tf2" />
+  <depend package="geometry_msgs" />
+  <depend package="smach" />
+  <depend package="smach_ros" />
+  <depend package="actionlib"/>
+  <depend package="actionlib_msgs"/>
+  <depend package="move_base_msgs"/>
+  <depend package="executer_actions"/>
+  <depend package="pr2_plugs_actions"/>
+  <depend package="pr2_interactive_object_detection"/>
+  <depend package="pr2_object_manipulation_msgs"/>
+
+</package>
