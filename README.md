@@ -6,7 +6,7 @@ pr2_plugs, and smach from source. Here’s the lines for your rosinstall (modify
 using your own forks of any repos):
 
 - hg: {local-name: src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
-- hg: {local-name: src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
+- git: {local-name: src/executive_smach, uri: 'git@github.com:ros/executive_smach.git'}
 - git: {local-name: src/object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/object_manipulation.git'}
 - git: {local-name: src/pr2_object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/pr2_object_manipulation.git'}
 - git: {local-name: src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git'}
